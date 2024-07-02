@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Container, Button, Typography, Card, CardMedia, CardContent } from '@mui/material';
 import axios from 'axios';
-import { FaHeart } from "react-icons/fa6";
+
 
 const Details = () => {
   const { id } = useParams();
